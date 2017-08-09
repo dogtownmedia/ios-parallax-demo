@@ -12,6 +12,24 @@
 		DC30CF511F3A265400C3D773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF4F1F3A265400C3D773 /* Main.storyboard */; };
 		DC30CF531F3A265400C3D773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF521F3A265400C3D773 /* Assets.xcassets */; };
 		DC30CF561F3A265400C3D773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF541F3A265400C3D773 /* LaunchScreen.storyboard */; };
+		DC30CF5E1F3A2BB100C3D773 /* ParallaxBackgroundDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30CF5D1F3A2BB100C3D773 /* ParallaxBackgroundDirection.swift */; };
+		DC30CF601F3A2E6700C3D773 /* ChooseOrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30CF5F1F3A2E6700C3D773 /* ChooseOrientationViewController.swift */; };
+		DC30CF621F3A35FF00C3D773 /* ParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30CF611F3A35FF00C3D773 /* ParallaxScrolling.swift */; };
+		DC30CF641F3A382900C3D773 /* ParallaxScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30CF631F3A382900C3D773 /* ParallaxScene.swift */; };
+		DC30CF721F3A3A2200C3D773 /* pBackgroundHorizontal.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF661F3A3A2200C3D773 /* pBackgroundHorizontal.png */; };
+		DC30CF731F3A3A2200C3D773 /* pBackgroundHorizontal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF671F3A3A2200C3D773 /* pBackgroundHorizontal@2x.png */; };
+		DC30CF741F3A3A2200C3D773 /* pBackgroundVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF681F3A3A2200C3D773 /* pBackgroundVertical.png */; };
+		DC30CF751F3A3A2200C3D773 /* pBackgroundVertical@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF691F3A3A2200C3D773 /* pBackgroundVertical@2x.png */; };
+		DC30CF761F3A3A2200C3D773 /* pForegroundHorizontal.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF6A1F3A3A2200C3D773 /* pForegroundHorizontal.png */; };
+		DC30CF771F3A3A2200C3D773 /* pForegroundHorizontal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF6B1F3A3A2200C3D773 /* pForegroundHorizontal@2x.png */; };
+		DC30CF781F3A3A2200C3D773 /* pForegroundVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF6C1F3A3A2200C3D773 /* pForegroundVertical.png */; };
+		DC30CF791F3A3A2200C3D773 /* pForegroundVertical@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF6D1F3A3A2200C3D773 /* pForegroundVertical@2x.png */; };
+		DC30CF7A1F3A3A2200C3D773 /* pMiddleHorizontal.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF6E1F3A3A2200C3D773 /* pMiddleHorizontal.png */; };
+		DC30CF7B1F3A3A2200C3D773 /* pMiddleHorizontal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF6F1F3A3A2200C3D773 /* pMiddleHorizontal@2x.png */; };
+		DC30CF7C1F3A3A2200C3D773 /* pMiddleVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF701F3A3A2200C3D773 /* pMiddleVertical.png */; };
+		DC30CF7D1F3A3A2200C3D773 /* pMiddleVertical@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC30CF711F3A3A2200C3D773 /* pMiddleVertical@2x.png */; };
+		DC8AF9EE1F3BBC1C00EB198D /* pGraph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8AF9EC1F3BBC1C00EB198D /* pGraph@3x.png */; };
+		DC8AF9EF1F3BBC1C00EB198D /* pGraph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8AF9ED1F3BBC1C00EB198D /* pGraph@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		DC30CF521F3A265400C3D773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC30CF551F3A265400C3D773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC30CF571F3A265400C3D773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC30CF5D1F3A2BB100C3D773 /* ParallaxBackgroundDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxBackgroundDirection.swift; sourceTree = "<group>"; };
+		DC30CF5F1F3A2E6700C3D773 /* ChooseOrientationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrientationViewController.swift; sourceTree = "<group>"; };
+		DC30CF611F3A35FF00C3D773 /* ParallaxScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxScrolling.swift; sourceTree = "<group>"; };
+		DC30CF631F3A382900C3D773 /* ParallaxScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxScene.swift; sourceTree = "<group>"; };
+		DC30CF661F3A3A2200C3D773 /* pBackgroundHorizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pBackgroundHorizontal.png; sourceTree = "<group>"; };
+		DC30CF671F3A3A2200C3D773 /* pBackgroundHorizontal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pBackgroundHorizontal@2x.png"; sourceTree = "<group>"; };
+		DC30CF681F3A3A2200C3D773 /* pBackgroundVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pBackgroundVertical.png; sourceTree = "<group>"; };
+		DC30CF691F3A3A2200C3D773 /* pBackgroundVertical@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pBackgroundVertical@2x.png"; sourceTree = "<group>"; };
+		DC30CF6A1F3A3A2200C3D773 /* pForegroundHorizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pForegroundHorizontal.png; sourceTree = "<group>"; };
+		DC30CF6B1F3A3A2200C3D773 /* pForegroundHorizontal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pForegroundHorizontal@2x.png"; sourceTree = "<group>"; };
+		DC30CF6C1F3A3A2200C3D773 /* pForegroundVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pForegroundVertical.png; sourceTree = "<group>"; };
+		DC30CF6D1F3A3A2200C3D773 /* pForegroundVertical@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pForegroundVertical@2x.png"; sourceTree = "<group>"; };
+		DC30CF6E1F3A3A2200C3D773 /* pMiddleHorizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pMiddleHorizontal.png; sourceTree = "<group>"; };
+		DC30CF6F1F3A3A2200C3D773 /* pMiddleHorizontal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pMiddleHorizontal@2x.png"; sourceTree = "<group>"; };
+		DC30CF701F3A3A2200C3D773 /* pMiddleVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pMiddleVertical.png; sourceTree = "<group>"; };
+		DC30CF711F3A3A2200C3D773 /* pMiddleVertical@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pMiddleVertical@2x.png"; sourceTree = "<group>"; };
+		DC8AF9EC1F3BBC1C00EB198D /* pGraph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pGraph@3x.png"; sourceTree = "<group>"; };
+		DC8AF9ED1F3BBC1C00EB198D /* pGraph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pGraph@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,40 @@
 		DC30CF4A1F3A265400C3D773 /* ParallaxBackgroundSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DC30CF651F3A3A1000C3D773 /* Images */,
 				DC30CF4B1F3A265400C3D773 /* AppDelegate.swift */,
 				DC30CF4D1F3A265400C3D773 /* ViewController.swift */,
 				DC30CF4F1F3A265400C3D773 /* Main.storyboard */,
 				DC30CF521F3A265400C3D773 /* Assets.xcassets */,
 				DC30CF541F3A265400C3D773 /* LaunchScreen.storyboard */,
 				DC30CF571F3A265400C3D773 /* Info.plist */,
+				DC30CF5D1F3A2BB100C3D773 /* ParallaxBackgroundDirection.swift */,
+				DC30CF5F1F3A2E6700C3D773 /* ChooseOrientationViewController.swift */,
+				DC30CF611F3A35FF00C3D773 /* ParallaxScrolling.swift */,
+				DC30CF631F3A382900C3D773 /* ParallaxScene.swift */,
 			);
 			path = ParallaxBackgroundSwift;
+			sourceTree = "<group>";
+		};
+		DC30CF651F3A3A1000C3D773 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC8AF9EC1F3BBC1C00EB198D /* pGraph@3x.png */,
+				DC8AF9ED1F3BBC1C00EB198D /* pGraph@2x.png */,
+				DC30CF661F3A3A2200C3D773 /* pBackgroundHorizontal.png */,
+				DC30CF671F3A3A2200C3D773 /* pBackgroundHorizontal@2x.png */,
+				DC30CF681F3A3A2200C3D773 /* pBackgroundVertical.png */,
+				DC30CF691F3A3A2200C3D773 /* pBackgroundVertical@2x.png */,
+				DC30CF6A1F3A3A2200C3D773 /* pForegroundHorizontal.png */,
+				DC30CF6B1F3A3A2200C3D773 /* pForegroundHorizontal@2x.png */,
+				DC30CF6C1F3A3A2200C3D773 /* pForegroundVertical.png */,
+				DC30CF6D1F3A3A2200C3D773 /* pForegroundVertical@2x.png */,
+				DC30CF6E1F3A3A2200C3D773 /* pMiddleHorizontal.png */,
+				DC30CF6F1F3A3A2200C3D773 /* pMiddleHorizontal@2x.png */,
+				DC30CF701F3A3A2200C3D773 /* pMiddleVertical.png */,
+				DC30CF711F3A3A2200C3D773 /* pMiddleVertical@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +187,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC30CF561F3A265400C3D773 /* LaunchScreen.storyboard in Resources */,
+				DC30CF7A1F3A3A2200C3D773 /* pMiddleHorizontal.png in Resources */,
+				DC30CF761F3A3A2200C3D773 /* pForegroundHorizontal.png in Resources */,
+				DC30CF731F3A3A2200C3D773 /* pBackgroundHorizontal@2x.png in Resources */,
+				DC30CF741F3A3A2200C3D773 /* pBackgroundVertical.png in Resources */,
+				DC30CF751F3A3A2200C3D773 /* pBackgroundVertical@2x.png in Resources */,
+				DC30CF781F3A3A2200C3D773 /* pForegroundVertical.png in Resources */,
+				DC30CF7C1F3A3A2200C3D773 /* pMiddleVertical.png in Resources */,
+				DC8AF9EF1F3BBC1C00EB198D /* pGraph@2x.png in Resources */,
+				DC30CF791F3A3A2200C3D773 /* pForegroundVertical@2x.png in Resources */,
 				DC30CF531F3A265400C3D773 /* Assets.xcassets in Resources */,
+				DC30CF721F3A3A2200C3D773 /* pBackgroundHorizontal.png in Resources */,
 				DC30CF511F3A265400C3D773 /* Main.storyboard in Resources */,
+				DC30CF7D1F3A3A2200C3D773 /* pMiddleVertical@2x.png in Resources */,
+				DC8AF9EE1F3BBC1C00EB198D /* pGraph@3x.png in Resources */,
+				DC30CF7B1F3A3A2200C3D773 /* pMiddleHorizontal@2x.png in Resources */,
+				DC30CF771F3A3A2200C3D773 /* pForegroundHorizontal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC30CF641F3A382900C3D773 /* ParallaxScene.swift in Sources */,
+				DC30CF601F3A2E6700C3D773 /* ChooseOrientationViewController.swift in Sources */,
+				DC30CF621F3A35FF00C3D773 /* ParallaxScrolling.swift in Sources */,
 				DC30CF4E1F3A265400C3D773 /* ViewController.swift in Sources */,
 				DC30CF4C1F3A265400C3D773 /* AppDelegate.swift in Sources */,
+				DC30CF5E1F3A2BB100C3D773 /* ParallaxBackgroundDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PBVUXBPDEA;
 				INFOPLIST_FILE = ParallaxBackgroundSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jhall.ParallaxBackgroundSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PBVUXBPDEA;
 				INFOPLIST_FILE = ParallaxBackgroundSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jhall.ParallaxBackgroundSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +384,7 @@
 				DC30CF5C1F3A265400C3D773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

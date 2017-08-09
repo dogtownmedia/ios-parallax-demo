@@ -7,19 +7,31 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+    var scrollingDirection: ParallaxBackgroundDirection?
+    
+    override func viewWillLayoutSubviews() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let skView = self.view as! SKView
+        skView.ignoresSiblingOrder = true
+        skView.showsFPS = true
+        guard let direction = scrollingDirection else { return }
+        
+        let scene = ParallaxScene(
+            size: skView.bounds.size,
+            scrollingDirection: direction,
+            startingSpeed: 4.0, // change this to increase/decrease overall speed
+            speedDecreaseFactor: 2.2) // change this increase/decrease speed decrease between layers
+        scene.scaleMode = .aspectFit
+        
+        skView.presentScene(scene)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
+    override var shouldAutorotate: Bool { return true }
+    override var prefersStatusBarHidden: Bool { return true }
 
 }
 
