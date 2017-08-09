@@ -11,6 +11,7 @@ import SpriteKit
 
 class ViewController: UIViewController {
     
+    
     var scrollingDirection: ParallaxBackgroundDirection?
     
     override func viewWillLayoutSubviews() {
