@@ -32,6 +32,5 @@ class ViewController: UIViewController {
     
     override var shouldAutorotate: Bool { return true }
     override var prefersStatusBarHidden: Bool { return true }
-
 }
 
